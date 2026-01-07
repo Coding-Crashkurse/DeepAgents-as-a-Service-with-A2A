@@ -1,0 +1,15 @@
+[project]
+name = "deepagentservice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "a2a-sdk[http-server]>=0.3.22",
+    "deepagents>=0.3.1",
+    "httpx>=0.28.1",
+    "langchain>=1.2.0",
+    "langchain-openai>=1.1.6",
+    "python-dotenv>=1.2.1",
+    "uvicorn>=0.40.0",
+]
